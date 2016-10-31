@@ -1,0 +1,538 @@
+/*
+Copyright (C) 2016 MarcoCantu
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : 27-oct-2016, 18:43:31
+    Author     : MarcoCantu
+*/
+
+body{
+        
+        background-color: black;
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+}
+h1{
+    text-align: center;
+    //font-size: 150%
+}
+#logo1div{
+    width: 100%;
+    text-align: center;
+}
+
+#kop{
+     display: none;
+}
+#id_spacer{
+    display: none;
+}
+#logo2{
+    display: none;
+}
+.divMainImage{
+    width: 100%;
+    //height: 300px;
+    //margin: 0;
+    //float: left; 
+    //position: absolute;
+}
+.divMainImage img{
+    width: 100%;
+}
+#DivWelcomeMessage{
+     //width: 100%; 
+     //position: absolute;
+    // margin-top: 500px;
+     text-align: center;
+    // padding: 3px;
+}
+#WelcomeLastVideos{
+    //display: none;
+}
+#WelcomeLastVideos img{
+    //display: none;
+    width: 100%;
+}
+#MainDivMessage{
+    //width: 100%; 
+    //margin: 5px;
+   // padding: 0px; 
+    //float: left; 
+    //margin-bottom: 28px;
+    height: fit-content;
+}
+#WelcomeMessage{
+    font-size: 78%
+}
+#MainDiv2Message{
+    //width: 100%;
+    //height: 400px;
+    //position: absolute;
+    //margin-top: 630px;
+    //margin-top: 10px; 
+    //margin-bottom: 5px; 
+    //padding: 5px; 
+    /*position: absolute;
+    float: left;*/
+    //display: none;
+}
+#MainConectToUs{
+    //width: 100%; 
+    //float: left; 
+    //text-align: center;
+     //display: none;
+     
+}
+#MainConectToUs img{
+    width: 100%; 
+}
+#MainConectToUs h2,p{
+    text-align: center;
+}
+#MainEvents{
+    //display: none;
+}
+#MainNewsBoard{
+    //display: none;
+}
+
+#MainNewsBoard img{
+    //display: none;
+    width: 100%;
+}
+#MainNewsBoard h1,h2,h3,h4{
+    //display: none;
+    font-size: 150%
+}
+
+
+.subTitile{
+    text-align: center;
+}
+#EventMessage{
+    width: 100%; 
+    border: #192738 thin solid; 
+    padding: 0px; 
+    margin-bottom: 5px; 
+    height: 100px;
+    background: #233448;
+    //opacity: .9;
+   // border:  green solid thin;
+}
+
+.DateTour{
+    width: 80px;
+    height:110px; 
+    background-color: #485968;
+    float: left; 
+    //text-align: center;
+    //margin-bottom: 20px;
+}
+.DateTour-small{
+    width: 80px;
+    height:100px; 
+    background-color: #485968;
+    //text-align: center;
+    //padding: 0px;
+    //border: blue solid thick;
+    //margin: 0;
+    float: left;
+}
+.DateTour h4{
+    //font-family: Verdana;
+    font-size: 110%;
+    //font-weight: bolder;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.DateTour h2{
+    //font-family: Verdana;
+    //font-size: x-larger;
+    //font-weight: bolder;
+    margin:  0;
+    color: red;
+    text-align: center;
+}
+.DateTour-small h4{
+    //font-family: Verdana;
+    //font-size: medium;
+    font-size: 110%;
+    padding: 5px;
+    margin: 0;
+    text-align: center; 
+}
+.DateTour-small h2{
+    //font-family: Verdana;
+    //font-size: xx-large;
+    //font-weight: bolder;
+    margin:  0;
+    //padding: 0;
+    color: red;
+    text-align: center; 
+}
+.DatetourTitle{
+    //font-family: Verdana;
+    //font-size: xx-large;
+    //font-weight: bolder;
+    //margin-left: 5%;
+    //color: white;
+    font-size: 120%;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.DatetourTitle-medium{
+    //font-family: Verdana;
+    //font-size: larger;
+    //font-weight: bolder;
+    //color: white;
+    font-size: 120%;
+    //width: 100%;
+    //float: left;
+    //border: yellow solid thin;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+#DateTourContainer{
+    //margin-left:2%; float: left; 
+    //border: gold solid thin;
+    float: left;
+    width: fit-content;
+    position: absolute;
+    margin-left: 82px;
+    height: 100px;
+}§
+.LinkViewMore{
+    //width: 10%;
+    //margin-top: 30px;
+    padding: 100px;
+    //margin-left: 40%; 
+    //font-family: Verdana;
+    //font-size: 130%;
+    float: left;
+}
+.LinkViewMore a{
+    color: white;
+    margin-right: 20px;
+}
+.LinkViewMore #ViewMoreLink{
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#NewsContainer{
+    width: 100%; 
+    //margin-top: 7%;
+}
+#NewsContainer h1{
+   font-size: 170%;
+   background-color: rgba(69,23,20,0.6);
+   padding: 20px;
+}
+#NewsContainer h2{
+   font-size: 140%;
+   padding: 5px;
+}
+#NewsContainer h3{
+   font-size: 120%;
+   padding: 5px;
+   color: red;
+   margin: 10px;
+}
+#NewsContainer img{
+   width: 100%;
+}
+#NewsBackgournd{
+    //width:90%; 
+    //padding: 20px; 
+    background-color: rgba(69,23,20,0.6);
+    //margin: 10px; 
+}
+#NewsContent{
+    //width: 100%; 
+    //position: relative;
+    //border: #692320 solid thin; 
+    //background-color: rgba(0,0,0,0.8); 
+    //margin-top: 20px;
+}
+#news-div-content{
+    //border: white solid thin;
+}
+
+.newheader{
+    //background: #485968;
+    //padding: 10px;
+    //color: white;
+    //font-weight: bolder;
+    //font-size: xx-large;
+    //text-align: center;
+    //opacity: .7;
+}
+.newheader h1{ 
+    //color: white;
+    //font-weight: bolder;
+    font-size: 170%;
+    background-color: rgba(69,23,20,0.6);
+    padding: 20px;
+}
+
+.newheader-content{
+    //background:#233448;
+    padding: 10px;
+    
+    
+}
+.newheader-content img{
+    //background:#233448;
+    //padding: 25px;
+    width: 100%;
+    
+}
+.newheader-content h1{
+    color: white;
+}
+.newheader-content h2{
+    color: white;
+}
+.newheader-content h3{
+    color: white;
+}
+
+.newheader-content h4{
+    color: white;
+}
+
+
+.newheader-date{
+    //background:black;
+    padding: 10px;
+    color: red;
+    //font-weight: bolder;
+    font-size: 140%;
+    text-align: center;
+    //opacity: .9;
+}
+#BandTitlePage{
+    //margin-top: 12%;
+}
+#DivBandBajista{
+    //float: left;
+    
+    //margin-left: 20%;
+}
+#bandpic{
+    width: 100%;
+}
+#DivBandVocalista{
+    //float: left;
+    //margin-left: 10%;
+}
+#DivBandGuitar2{
+    //float: left;
+    //margin-left: 10%;
+}
+
+#dates-container-big{
+    width: 100%; 
+    padding: 5px; 
+    //margin-top: 120px;
+    //border: gold solid thick;
+    //position:  inherit;
+    //border: gold solid thick;
+}
+#dates-content-newsdisplay{
+    //width: 80%; 
+    //margin-left: 15px;
+    //padding: 0;
+    //float: left;
+    //border: orange solid thick;
+}
+#dates-info{
+    width: 100%; 
+    border: #192738 thin solid; 
+    padding: 0px; 
+    margin-bottom: 20px; 
+    height: 110px;
+    background: #233448;
+    //opacity: 0.9;
+    //border: green solid thick;
+}
+#dates-title-content{
+    //margin-left:2%; 
+    //position:  relative;
+    //float: left; 
+    //width:   60% ;
+    //border: red solid thick;
+    float: left;
+    width: fit-content;
+    position: absolute;
+    margin-left: 75px;
+    height: 100px;
+    //border: red solid thick;
+}
+#dates-foto-rigth{
+    display: none;
+}
+#viewphoto-photo-content{
+    width: 100%; 
+    text-align: center; 
+   // margin-top: 25px;
+   margin-bottom: 40px;
+    
+}
+#videos-main-container{
+    width: 100%; 
+    //margin-top: 120px;
+}
+#videos-item-container{
+    width: 100%; 
+    margin-top: 15px; 
+    text-align: center; 
+    margin-bottom:10px;
+}
+#videos-item-container iframe{
+   width: 100%;
+}
+#photos-main-container{
+    width: 100%; 
+}
+#viewvideo-main-container{
+    width: 100%; 
+    text-align: center;
+}
+#viewvideo-main-container iframe{
+   width: 100%;
+}
+/* pendiente*/
+#discography-main-container{
+    width: 100%;
+   // margin-top: 120px;
+    text-align: center;
+    
+    
+}
+#discography-title-container{
+    width: 100%; 
+    text-align: center;
+}
+#discography-album-container{
+    width: 100%; 
+    text-align: center; 
+    //border: gold solid thin;
+    
+    
+}
+#discography-services-container{
+    //position: inherit;
+    width: 100%; 
+    //border: green solid thin; 
+    //margin-left: 20%;
+    //margin-bottom: 150px;
+    
+    
+}
+#discography-services-container img{
+    width: 130px; 
+    height: 70px;
+}
+
+#discography-image-album1{
+    width:40%;
+}
+
+.discography-services-div{
+    //float: left; 
+    //margin-right: 20px;
+    margin: 15px;
+}
+
+
+/***** album in mail page ***/
+
+#main-container-albums{
+    float: left;
+    width: 100%; 
+    text-align: center; 
+    //border: gold solid thick;
+    //padding-left: 3%;
+    margin-bottom: 30px;
+}
+
+#title-container-albums{
+    width: 100%;
+}
+#title-container-albums h2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+#main-album-title-container{
+    
+}
+
+#main-album-container{
+    //border: blue solid thick ;
+    float: left;
+    margin-bottom: 55px;
+}
+
+#main-album-container iframe{
+    width: 260;
+    height: 500px;
+    //border:0px;
+}
+
+#main-album-container{
+    width:100%;
+    height:510px;
+    //border:0px;
+}
+
+.main-services-div{
+
+    
+}
+.main-services-div-2{
+    float: left;
+    
+}
+.main-services-div img{
+   width: 180px;
+   margin: 15px;
+   border: gray solid thin;
+   padding: 3px;
+}
+.main-services-div-2 img{
+   width: 150px;
+   margin: 15px;
+   border: gray solid thin;
+   padding: 3px;
+}
+
+#main-services-container-2{
+    //border:  darkorange solid thick; 
+    float: left; 
+    width: 400px
+}

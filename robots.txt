@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /css/
+Disallow: /images/
+Disallow: /include/
+Disallow: /js/
+Disallow: /modules/
+Allow: /public/
+Disallow: /view/
+sitemap:http://www.blacknoize.com.mx/sitemap.xml

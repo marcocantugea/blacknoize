@@ -1,0 +1,416 @@
+﻿body {
+        background-image: url("../images/black_noize_backgound_webpage_2.jpg");
+        background-color: black;
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+}
+h1 {
+      color: white;
+      font-family: Helvetica;
+      font-weight: bolder;
+}
+
+h2 {
+      color: white;
+}
+
+h3 {
+      color: white;
+}
+.newheader{
+    background: #485968;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    opacity: .7;
+}
+.newheader h1{ 
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.newheader-content{
+    background:#233448;
+    padding: 25px;   
+}
+.newheader-content h1{
+    color: white;
+}
+.newheader-content h2{
+    color: white;
+}
+.newheader-content h3{
+    color: white;
+}
+
+.newheader-content h4{
+    color: white;
+}
+#news-div-content{
+    border: white solid thin;
+}
+
+.newheader-date{
+    background:black;
+    padding: 10px;
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    opacity: .9;
+}
+#news-container{
+    width: 80%; 
+    padding-left: 20%; 
+    margin-top: 120px;
+}
+#dates-container-big{
+    width: 100%; 
+    padding: 0; 
+    margin-top: 120px;
+    //border: gold solid thick;
+    position:  inherit;
+}
+#dates-content-newsdisplay{
+    width: 80%; 
+    margin-left: 15px;
+    padding: 0;
+    float: left;
+    //border: orange solid thick;
+}
+#dates-info{
+    width: 100%; 
+    border: #192738 thin solid; 
+    padding: 0px; 
+    margin-bottom: 20px; 
+    height: 120px;
+    background: #233448;
+    opacity: 0.9;
+    //border: green solid thick;
+}
+#dates-title-content{
+    margin-left:2%; 
+    position:  relative;
+    float: left; 
+    width:   60% ;
+    //border: red solid thick;
+}
+#dates-foto-rigth{
+    width: 15%; 
+    float: left;
+}
+button{
+    background-color: darkred;
+    color: white;
+    
+}
+.DateTour{
+    width: 150px;
+    height:119px; 
+    background-color: #485968;
+    float: left; 
+    text-align: center;
+}
+.DateTour-small{
+    width: 150px;
+    height:85px; 
+    background-color: #485968;
+    float: left; 
+    text-align: center;
+    padding-top: 5px;
+}
+.DateTour h4{
+    font-family: Verdana;
+    font-size: larger;
+    font-weight: bolder;
+}
+.DateTour h2{
+    font-family: Verdana;
+    font-size: x-larger;
+    font-weight: bolder;
+    margin:  0;
+    color: red;
+}
+.DateTour-small h4{
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bolder;
+     padding: 0;
+     margin: 0;
+}
+.DateTour-small h2{
+    font-family: Verdana;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin:  0;
+    padding: 0;
+    color: red;
+}
+.DatetourTitle{
+    font-family: Verdana;
+    font-size: 130%;
+    font-weight: bolder;
+    margin-left: 5%;
+    color: white;
+}
+.DatetourTitle-medium{
+    font-family: Verdana;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+#DateTourContainer{
+    margin-left:2%; float: left; 
+}
+
+.LinkViewMore{
+    margin-left: 5%; 
+    font-family: Verdana;
+    font-size: large;
+    float: left;
+}
+
+.LinkViewMore #ViewMoreLink{
+    float: left;
+    margin-right: 20px;
+}
+
+.LinkViewMore a{
+    color: white;
+    margin-right: 20px;
+}
+.subTitile{
+    font-family: Verdana;
+    font-weight: bolder;
+    color: white;
+}
+
+#kop{
+    position: absolute; 
+    text-align: center; 
+    width: 100%;
+}
+#kop img{
+    height: 226px;
+}
+.head
+{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    width: 800px;
+    height: 260px;
+}
+.divMainImage{
+    width: 735px;
+    height: 500px;
+    margin: 0;
+    float: left; 
+    position: absolute;
+}
+#DivWelcomeMessage{
+    float:left; margin-left: 650px; width: 46%; position: absolute;
+}
+#MainDivMessage{
+    width: 99%; border: #485968 thin solid;margin: 5px;padding: 0px; float: left; height: 503px; margin-bottom: 28px;
+}
+#MainDiv2Message{
+    margin-top: 10px; margin-bottom: 5px; padding: 10px;
+}
+#MainConectToUs{
+    width: 550px; float: left; position: initial
+}
+#MainEvents{
+    width: 685px; float: left; margin-right: 5px; position: relative; 
+}
+#MainNewsBoard{
+    width:95%; padding: 20px;margin: 10px;float: left;
+}
+#EventMessage{
+    width: 100%; border: #192738 thin solid; padding: 0px; margin-bottom: 20px; height: 86px;background: #233448;opacity: .9;
+}
+#NewsContainer{
+    width: 110%; margin-top: 7%;
+}
+#NewsBackgournd{
+    width:90%; padding: 20px; background-color: rgba(69,23,20,0.6);margin: 10px; 
+}
+#NewsContent{
+    width: 100%; position: relative;border: #692320 solid thin; background-color: rgba(0,0,0,0.8); margin-top: 20px;
+}
+#BandTitlePage{
+    margin-top: 12%;
+}
+#DivBandBajista{
+    float: left;
+    margin-left: 20%;
+}
+#bandpic{
+    width:50%;
+}
+#DivBandVocalista{
+    float: left;
+    margin-left: 10%;
+}
+#DivBandGuitar2{
+    float: left;
+    margin-left: 10%;
+}
+
+#viewdate-main-container{
+    width: 80%; 
+    padding-left: 20%; 
+    margin-top: 120px;
+}
+#viewdate-main-content{
+    border: white solid thin;
+}
+#viewphoto-photo-content{
+    width: 100%; 
+    text-align: center; 
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+#videos-main-container{
+    width: 100%; 
+    margin-top: 120px;
+}
+#videos-item-container{
+    width: 100%; 
+    margin-top: 15px; 
+    text-align: center; 
+    margin-bottom:10px;
+}
+
+#photos-main-container{
+    width: 100%; 
+    margin-top: 120px;
+}
+#viewvideo-main-container{
+    width: 100%; 
+    margin-top: 120px; 
+    text-align: center;
+}
+#discography-main-container{
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+    
+    
+}
+#discography-title-container{
+    width: 100%; 
+    text-align: center;
+}
+#discography-album-container{
+    width: 100%; 
+    text-align: center; 
+    //border: gold solid thin;
+    
+    
+}
+#discography-services-container{
+    position: inherit;
+    width: 70%; 
+    //border: green solid thin; 
+    margin-left: 20%;
+    margin-bottom: 150px;
+    
+}
+#discography-services-container img{
+    width: 200px; 
+    height: 100px;
+}
+
+#discography-image-album1{
+    width:40%;
+}
+
+.discography-services-div{
+    float: left; 
+    margin-right: 20px;
+}
+
+/***** album in mail page ***/
+
+#main-container-albums{
+    float: left;
+    width: 100%; 
+    text-align: center; 
+    //border: gold solid thick;
+    padding-left: 3%;
+    margin-bottom: 30px;
+}
+
+#title-container-albums{
+    width: 100%;
+}
+#title-container-albums h2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+#main-album-title-container{
+    
+}
+
+#main-album-container{
+    //border: blue solid thick ;
+    float: left;
+}
+
+#main-album-container iframe{
+    width:700px;
+    height:520px;
+    border:0px;
+}
+
+#main-album-container{
+    width:700px;
+    height:520px;
+    border:0px;
+}
+
+.main-services-div{
+
+    
+}
+.main-services-div-2{
+    float: left;
+    
+}
+.main-services-div img{
+   width: 180px;
+   margin: 15px;
+   border: gray solid thin;
+   padding: 3px;
+}
+.main-services-div-2 img{
+   width: 150px;
+   margin: 15px;
+   border: gray solid thin;
+   padding: 3px;
+}
+
+#main-services-container-2{
+    border:  darkorange solid thick; 
+    float: left; 
+    width: 400px
+}
+
+@media screen and (max-width:1200px){
+    #main-services-container-2{
+        border:  blueviolet solid thick; 
+        float:  inside; 
+        width: 400px;
+    }
+    .main-services-div-2{
+        float: none;
+    }
+    .main-services-div{
+        float: none;
+    }
+}
