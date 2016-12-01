@@ -17,6 +17,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <?php
     include "../topInclude.php";
+    
+    //** add counter
+    include '../include/external/webcounter/counter.php';
+    
     if(isset($_GET)){
         if(isset($_GET['q'])){
             $code=  $_GET['q'];

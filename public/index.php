@@ -20,6 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     include '../topInclude.php';
     $pathvideo= $config->domain."/".$config->pathServer;
     
+    //** add counter
+    include '../include/external/webcounter/counter.php';
+    
     // Declare OG Facebook Meta Tags
     $_fgmetaog=  new ArrayList();
     $OGMeta= new OGMetaFacebookObj();

@@ -19,6 +19,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 <?php
     include "../topInclude.php";
     
+    
+    //** add counter
+    include '../include/external/webcounter/counter.php';
+    
     $pathvideo= $config->domain."/".$config->pathServer;
      // Declare OG Facebook Meta Tags
     $_fgmetaog=  new ArrayList();

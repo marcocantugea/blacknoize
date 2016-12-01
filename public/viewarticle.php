@@ -20,6 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     $pathvideo= $config->domain."/".$config->pathServer;
     
     
+    //** add counter
+    include '../include/external/webcounter/counter.php';
+    
     
     if(isset($_GET['q'])){
         $idencode=$_GET['q'];

@@ -17,6 +17,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <!DOCTYPE html>
 <?php
+
+    //** add counter
+    include '../include/external/webcounter/counter.php';
+
     include '../topInclude.php';
     $pathvideo= $config->domain."/".$config->pathServer;
      // Declare OG Facebook Meta Tags

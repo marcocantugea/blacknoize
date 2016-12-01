@@ -11,22 +11,6 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.blacknoize.com.mx/public/intro1.php</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.blacknoize.com.mx/public/intro2.php</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.blacknoize.com.mx/public/intro3.php</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.blacknoize.com.mx/public/intro4.php</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
   <loc>http://www.blacknoize.com.mx/public/index.php</loc>
   <changefreq>daily</changefreq>
 </url>
@@ -56,6 +40,22 @@
 </url>
 <url>
   <loc>http://www.blacknoize.com.mx/public/contact.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.blacknoize.com.mx/public/viewdate.php?q=MjI=</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.blacknoize.com.mx/public/viewdate.php?q=MjM=</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.blacknoize.com.mx/public/viewdate.php?q=MjE=</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.blacknoize.com.mx/public/viewdate.php?q=MjA=</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>

@@ -39,7 +39,24 @@ if($Showlogin){
         include '../view/admin/menuinclude.php';
     }
 ?>
+<?php
+    /** check web counter
+     * 
+     */
 
+    $file=  fopen("../public/hitcounter.txt", "r") or die("Unable to open file!");;
+    $actualcounter= fread($file,filesize("../public/hitcounter.txt"));
+    fclose($file);
+?>
+<div style="width: 100%">
+    <center>
+        <div style="width: 450px;height: 250px; border: red thick solid">
+            <img src="images/icon-visitor-blue.png" alt="" width="100px"/>
+            <h1>Visitors Counter</h1>
+            <h1><?php echo $actualcounter;?></h1>
+        </div>
+    </center>
+</div>
 <?php
 include '../view/admin/footerinclude.php';
 ?>
