@@ -43,11 +43,17 @@ if($Showlogin){
     /** check web counter
      * 
      */
-
+if($Showlogin){
+}else{
     $file=  fopen("../public/hitcounter.txt", "r") or die("Unable to open file!");;
     $actualcounter= fread($file,filesize("../public/hitcounter.txt"));
     fclose($file);
+}
 ?>
+<?php 
+if(!$Showlogin){
+?>
+
 <div style="width: 100%">
     <center>
         <div style="width: 450px;height: 250px; border: red thick solid">
@@ -57,6 +63,7 @@ if($Showlogin){
         </div>
     </center>
 </div>
+<?php } ?>
 <?php
 include '../view/admin/footerinclude.php';
 ?>
