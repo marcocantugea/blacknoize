@@ -139,6 +139,16 @@ in; a band that had something to say and represent.</p>
     <div class="fb-like" data-href="https://www.facebook.com/BlackNoize1/" data-width="300" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div><br/>
         <a href="https://www.youtube.com/channel/UCgsvAHfD6L39jA1Yiysa7tw" target="_blank"><img src="images/black_noize_fan_page_youtube.png" alt=""/></a>
     </p>
+    <p>
+        <h3>Or Subscribe to get News, Events or Specials Discounts </h3>
+        <br/>
+        <input type="email" value="" name="email" id="txtemail" style="color: black; text-align: center; width: 80%; height: 40px; font-weight: bold">
+        <br/>
+        <span><a href="dataprivacy.php" target="_blank" >About Data Privacy</a></span>
+        <br/><br/>
+        <button id="btn_reg_email" style="background-color:red;">Sign Up!</button>
+        <input type="hidden" id="txtapp"  name="app" value="blacknoize.com.mx">
+    </p>
     </div>
 </div>
     <div id="MainEvents" >
@@ -224,6 +234,23 @@ in; a band that had something to say and represent.</p>
             }
         });
     });
+    
+     $("#btn_reg_email").click(function(){
+                var email=$("#txtemail").val();
+                var app=$("#txtapp").val();
+                $.post("http://www.puntotec.com.mx/emregister/email/register",{email:email,app:app},function(result){
+                    var res=result;
+                    if(res!="111"){
+                        alert("Correo incorrecto, revise si esta correcto el email");
+                    }else{
+                        alert("Gracias su correo se a inscrito correctamente");
+                        $("#txtemail").val("");
+                        $("#txtemail").focus();
+                    }
+                });
+                return false;
+            });
+    
 </script>
 <?php
     include '../view/public/footerinclude.php';
