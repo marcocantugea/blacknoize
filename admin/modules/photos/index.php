@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     $token=$SessionUser->token;
     
     // serach for all photos in the public photo folder
-    $path=$_SERVER['DOCUMENT_ROOT'].$pathconfig."/public/photos";
+    $path=$_SERVER['DOCUMENT_ROOT']."/".$pathconfig."/public/photos";
     $ListOfPhotos = new ArrayList();
     foreach(glob($path.'/*.jpg') as $filename){
         $photo= new PhotoObj();

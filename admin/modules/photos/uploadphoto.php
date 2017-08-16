@@ -25,7 +25,7 @@ $SessionUser= unserialize($_SESSION['UserObj']);
 $SessionUser->GenerateToken();
 $token=$SessionUser->token;
 
-$savepath=$path=$_SERVER['DOCUMENT_ROOT'].$pathconfig."/public/photos/";
+$savepath=$path=$_SERVER['DOCUMENT_ROOT']."/".$pathconfig."/public/photos/";
 
 if(isset($_SESSION['UserObj'])){
     if($_FILES['fileselected']['error']>0){

@@ -26,8 +26,8 @@
 class Config {
     public $username="root";
     public $password="root";
-    public $database="blacknoize";
+    public $database="u746115978_8013";
     public $servername="localhost";
-    public $pathServer= "BlackNoizePHP";
+    public $pathServer= "bnsite/blacknoize";
     public $domain="http://localhost:8888";
 }

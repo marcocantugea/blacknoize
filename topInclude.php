@@ -20,7 +20,7 @@
 
 date_default_timezone_set("America/Mexico_City");
 //Configuracion del sistema
-$pathconfig="/BlackNoizePHP";
+$pathconfig="/bnsite/blacknoize";
 include ($_SERVER['DOCUMENT_ROOT'].$pathconfig."/Config.php");
 $config= new Config();
 
